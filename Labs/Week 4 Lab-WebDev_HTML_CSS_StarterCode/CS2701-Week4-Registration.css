@@ -95,6 +95,21 @@ section {
     text-align: left;
 }
 
+/* Green Register Button */
+#registerBtn {
+    background-color: #2e8b57;   /* soft green */
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#registerBtn:hover {
+    background-color: #256f46;   /* darker green on hover */
+}
+
 /*Styling with a media query*/
 @media screen and (max-width: 700px) {
     /* ToDo: Style aside and section so that they take 100% width on small screens*/

@@ -39,7 +39,7 @@
 
                     <input type="checkbox" id="buyer" name="buyer" value="buyer">
                     <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
-                    
+
                     <input type="checkbox" id="seller" name="seller" value="seller">
                     <label for="seller">I want to sell produce from my allotment.</label><br>
                     
@@ -48,6 +48,9 @@
                     <input type="checkbox" id="seller" name="seller" value="seller">
                     <label for="seller">I want to sell produce from my allotment.</label><br><br>
 
+                    <button type="button" id="registerBtn">Register</button>
+
+
                     <br><br>
                 </form>
                 <div class="center" id="hiddenSection">
@@ -55,5 +58,11 @@
                 </div>
             </section>
         </main>
+        <script>
+    document.getElementById("registerBtn").addEventListener("click", function() {
+        document.getElementById("hiddenParagraph").textContent = "Thanks for registering!";
+    });
+</script>
+
     </body>
 </html>
